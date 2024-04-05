@@ -1,0 +1,60 @@
+body{
+    border: solid black 2px;
+    background-color: antiquewhite;
+}
+
+header, header+h1{
+    text-align: center;
+}
+header h1{
+    font-size: 37px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header p{
+    font-size: 28px;
+    width: 1000px;
+    position: relative;
+    left: 250px;
+}
+.main1,.main2,.main3,.main4,.main5, .main6{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    position: relative;
+    left: 200px;
+
+}
+.main1 div,.main2 div,.main3 div,.main4 div,.main5 div,.main6 div{
+    text-align: center;
+    box-shadow: 0px 0px 10px;
+    border-radius: 15px;
+    height: 270px;
+    width: 200px;
+    background-color: rgb(222, 231, 174);
+    
+}
+.main1 p{
+    font-size:large;
+    font-style: oblique;
+}
+.lead1, .devl1, .sale1{
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    width: 250px;
+    text-align: center;
+    position: relative;
+    left: 630px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    border: solid black 2px;
+    
+}
+.devl1, .sale1{
+    margin-top: 50px;
+}
+header{
+    background-color: aquamarine;
+}
+

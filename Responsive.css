@@ -1,0 +1,143 @@
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    header {
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    header p {
+        font-size: 12px;
+        width: 80%;
+        position: relative;
+        left: 30px; 
+    }
+    .meet1 {
+        font-size: 24px;
+    }
+    .lead1,.devl1,.sale1{
+        position: relative;
+        left: 50px;
+    }
+    .main1 img,
+    .main2 img,
+    .main3 img,
+    .main4 img,
+    .main5 img,
+    .main6 img {
+        width: 80px;
+        height: 80px;
+    }
+    .main1,.main2,.main4,.main6{
+        position: relative;
+        left: 20px;
+        width: 300px;
+    }
+    .main3,.main5{
+        position: relative;
+        width: 300px;
+        left: 10px;
+    }
+    .main1 div{
+        height: 200px;
+        width: 130px;
+    }
+    body{
+        border: solid 2px black;
+    }
+    .main2 div{
+       flex-wrap: 50px ;
+       
+    }
+   
+}
+
+/* For tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    body{
+        border: solid 2px black;
+        width: 1300px;
+    }
+    header h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    header p {
+        font-size: 14px;
+        width: 80%;
+        position: relative;
+        left: 150px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .main1 img,
+    .main2 img,
+    .main3 img,
+    .main4 img,
+    .main5 img,
+    .main6 img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .main1,.main2,.main4,.main6{
+        position: relative;
+        left: 100px;
+        
+    }
+    .main3,.main5{
+        position: relative;
+        left: 80px;
+    }
+    .lead1,.devl1,.sale1{
+        position: relative;
+        left: 520px;
+    }
+    .main1 div{
+        height: 250px;
+        width: 200px;
+    }
+    
+}
+/* For laptop devices */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    body{
+        border: solid 2px black;
+        width: 1500px;
+    }
+    header h1 {
+        font-size: 32px;
+    }
+
+    header p {
+        font-size: 16px;
+        width: 80%;
+        position: relative;
+        left: 30px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    .main1 img,
+    .main2 img,
+    .main3 img,
+    .main4 img,
+    .main5 img,
+    .main6 img {
+        width: 140px;
+        height: 140px;
+    }
+    .lead1,.devl1,.sale1{
+       text-align: center;
+    }
+    .main1>div{
+        height: 400px;
+    }
+}
+
+
